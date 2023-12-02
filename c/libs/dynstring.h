@@ -18,7 +18,10 @@ int free_string(string_t *string);
 
 // Content management
 int append_string(string_t *string, const char *data, int data_len);
-void reset_string(string_t *string);
+int reset_string(string_t *string);
+
+// String manipulation and operation
+int revert_string(string_t *string);
 
 int read_line_from_file(string_t *string, FILE *file);
 
