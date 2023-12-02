@@ -48,6 +48,7 @@ int main(int argc, char **argv) {
 
   printf("Output: %ld\n", sum);
 
+  fclose(input);
 FREE_STR:
   free_string(&content);
 EXIT:
